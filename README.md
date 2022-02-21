@@ -14,3 +14,4 @@ Password : security
 demo: 
 ![Attendance](https://imgur.com/WvZr4KE)
 
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/oWhqYAI" data-context="false" ><a href="//imgur.com/a/oWhqYAI"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
