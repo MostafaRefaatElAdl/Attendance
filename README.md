@@ -1,6 +1,8 @@
 # Attendance
 First project using vanilla javascript, Which is an Attendance system
 
+Technologies used : JS, CSS, HTML
+
 For testing admin page you can use : 
 Username : Admin
 Password : admin
