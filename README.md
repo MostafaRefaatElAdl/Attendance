@@ -12,6 +12,6 @@ Username : Security
 Password : security
 
 
-[Imgur](https://imgur.com/WvZr4KE)
+![](https://imgur.com/WvZr4KE)
 
 ![](http://i.imgur.com/Ssfp7.gif)
