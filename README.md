@@ -10,3 +10,7 @@ Password : admin
 For testing security page you can use : 
 Username : Security
 Password : security
+
+demo: 
+![Attendance](https://imgur.com/WvZr4KE)
+
