@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Register</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../Style/HomePage.css">
+    <link rel="stylesheet" href="../Style/Register.css">
+
+    <script src="../src/jquery-3.6.0.js"></script>
+    <script src="../Js/RegisterLogic.js" type="module"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="title">
+            Register
+        </div>
+        <form id="regForm">
+            <div class="input">
+                <input id="email" placeholder="Email" type="email" required class="validate">
+                <br><span id="mailError">Invalid Email</span>
+                <span id="mailDError">Mail is already registered</span>
+
+            </div>
+
+            <div class="input">
+                <input id="firstname" placeholder="First Name" type="text" required class="validate">
+                <br><span id="fNameError">Invalid First Name</span>
+            </div>
+            <div class="input">
+
+                <input id="lastname" placeholder="Last Name" type="text" required class="validate">
+                <br><span id="lNameError">Invalid Last Name</span>
+            </div>
+
+            <div class="input">
+                <input id="address" placeholder="Address" type="address" required class="validate">
+                <br><span id="addressError">Invalid Address</span>
+            </div>
+
+            <div class="input">
+                <input id="age" placeholder="Age" type="number" required class="validate" min="20" max="60">
+                <br><span id="ageError">Invalid Age</span>
+            </div>
+            <br>
+
+            <input type="button" value="Register" id='register' />
+        </form>
+        <span id="mailPError">Your request is pending please wait for Admin Confirmation</span>
+        <span id="userAdded">Registered Successfully, Please wait for Admin Confirmation </span>
+
+        <div class="register">
+            Do you already have an account?
+            <a href="./LoginPage.html"><button id="register-link">Log In here</button></a>
+        </div>
+    </div>
+</body>
+
+</html>

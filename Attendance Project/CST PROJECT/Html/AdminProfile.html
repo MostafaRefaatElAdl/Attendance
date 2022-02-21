@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Profile</title>
+    <link rel="stylesheet" href="../Style/HomePage.css">
+    <link rel="stylesheet" href="../Style/Admin.css" />
+    <script src="../src/jquery-3.6.0.js"></script>
+    <script src="../Js/AdminLogic.js" type="module"></script>
+
+</head>
+
+<body>
+    <div class="reportcontainer">
+        <form>
+            <div id="adminDivBtns">
+                <input type="button" id="drawEmployees" class="btn" value="All Employees">
+                <input type="button" id="fullRep" class="btn" value="Full Report">
+                <input type="button" id="lateRep" class="btn" value="Late Report">
+                <input type="button" id="excuseRep" class="btn" value="Excuse Report">
+                <input type="button" id="drawPending" class="btn" value="Pending Employees">
+            </div>
+        </form>
+        <table id="table"></table>
+    </div>
+    <div id="signOut">
+        <a href="../Html/HomePage.html" class="btn">Sign Out</a>
+    </div>
+
+</body>
+
+</html>

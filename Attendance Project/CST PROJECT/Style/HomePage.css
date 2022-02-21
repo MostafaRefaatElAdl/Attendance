@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: linear-gradient(to right,pink,lightblue);
+}
+.container {
+  width: 45%;
+  margin: 30px auto;
+  padding: 20px 5px;
+  /* display: flex; */
+  flex-direction: column;
+  background-color: #20243c;
+  border-radius: 10px;
+  justify-content: space-around;
+  box-shadow: #20243c 5px 5px 10px 0, #292942 5px 5px 30px;
+}
+.container form div {
+  padding: 10px 5px;
+  /* display: flex; */
+  justify-content: space-around;
+  align-items: center;
+}
+.container form div label {
+  width: 15%;
+  padding: 5px 5px;
+  border: 1px solid #888;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.container form div input {
+  width: 80%;
+  padding: 25px 0;
+  margin: 0 auto;
+  border: 1px solid #888;
+  text-align: center;
+  border-radius: 5px;
+  font-size: larger;
+}
+.container form .submitProcess {
+  width: 100%;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 10px 0;
+  text-align: center;
+  margin-top: 10px;
+}
+.container .reborts {
+  width: 100%;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 10px 0;
+  text-align: center;
+  margin-top: 10px;
+}
+#mainlogin > a,#signOut,.container .reborts input [type="button"]{
+  background-color: #eda877;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #20243c;
+  font-size: 13px;
+  transition: 1s all ease-in-out;
+  scale: 1;
+  }
+  #mainlogin > a,#signOut,.container form .submitProcess input [type="button"] {
+  background-color: #eda877;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #20243c;
+  font-size: 15px;
+  transition: 1s all ease-in-out;
+  scale: 1;
+}
+.container form .submitProcess label {
+    margin-right: 25px;
+    padding: 9px 0;
+}
+#mainlogin > a,#signOut,.container form .submitProcess input [type="button"]:hover {
+  scale: 1.1;
+  background-color: #6877d1;
+  cursor: pointer;
+  color: beige; 
+}
+
+#mainlogin {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .9;
+}
+
+#mainlogin>a {
+  font-size: 2.5em;
+  text-decoration: none;
+}
+
+#approveImg, #denyImg {
+  width: 25px;
+  height: 25px;
+}
+
+#signOut a{
+text-decoration: none;
+color: white;
+}
+#signOut {
+  width: fit-content;
+  margin: 30px auto;
+}
+
+#signOut:hover{
+transform: rotateY(360deg) scale(1.2);
+  }
+
+  .btn:hover{
+    transform: scale(1.3);
+  }
+
+  .reportcontainer{
+    margin-top: 10%;
+    text-align: center;
+}

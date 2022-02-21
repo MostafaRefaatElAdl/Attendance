@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+    background: linear-gradient(to right,pink,lightblue);
+}
+
+button ,input[type=button] {
+    padding: 6px 25px;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition-duration: 1s;
+    margin: 20px;
+    font-size:  1em;
+}
+/* 
+.input {
+    margin: auto;
+    border-radius: 4px;
+    padding: 8px 0px;
+    margin: 15px;
+    width: auto;
+    min-width: 1.5em;
+    min-width: 20%;
+    color: #C1C3C6;
+} */
+
+*:focus {
+    outline: none;
+}
+
+
+.container form div input {
+    width: 80%;
+    padding: 20px 0;
+    margin: 0 auto;
+    border: 1px solid #888;
+    text-align: center;
+    border-radius: 5px;
+    font-size: larger;
+  }
+
+#register-link {
+    /* margin-top: 10px; */
+    padding: 6px 25px;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#register-link:hover, input[type=button]:hover {
+    padding: 6px 25px;
+    font-weight: bold;
+    background: #373E4A;
+    color: #C1C3C6;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+    transform: scale(1.2);
+}
+
+#adminDivBtns{
+text-align: center;
+}
+
+table {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    border-spacing: 0;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    transition: 1s;
+}
+td:hover{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    transform: scale(1.1);
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #8f9ca5;
+}
+
+tr:hover {
+    background-color: #8f9ca5;
+}
+
+
+
